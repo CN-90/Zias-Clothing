@@ -1,0 +1,113 @@
+.one {
+  background: url('https://previews.dropbox.com/p/thumb/AAoFUpMo4AXyLS-QykNkSsy2JEpa0uQ41ov5mXZCsZuJ6y_T1yz7fC_acHlow9V9c8e0u2ULdu0IeBwgyNdrwANtbVHOWFkZxURGIlm6SO4x-zWHrimX9gNg-7VyBckDLV33m1EzNPSu1ensLBF4_JpWkl9FQ0Rsys1o1zK-IG-GpfaXxHz2Slm7PmbnkgBjaO-7hJxjsdl4kXvrqLctgdJEM5hGDBbly7Tf0SqPPr0cjjCNoaOczqcbKGI9hYd-uIw1PH0AjNZ8CvKNIyYx12SKqx6dMKPELS3YqrYT5IU3lRYRkCcQVnoMTRB9yknbVZPRj-CngCm_Cxex3eSsdsvx/p.jpeg?fv_content=true&size_mode=5');
+  .text-box {
+    position: absolute;
+    bottom: 30%;
+    left: 3%;
+    text-align: center;
+  }
+}
+
+.two {
+  background: url('https://images.pexels.com/photos/1362556/pexels-photo-1362556.jpeg?cs=srgb&dl=sunglasses-with-frames-1362556.jpg&fm=jpg');
+  display: flex;
+  justify-content: center;
+  .text-box {
+    position: absolute;
+    top: 25%;
+    text-align: center;
+  }
+
+  .slide_btn {
+    background: #1e1e1e;
+  }
+}
+
+.slide {
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.secondary {
+  font-size: 7.5rem;
+  padding: 0;
+  line-height: 0.5;
+}
+
+.header {
+  color: black;
+  font-size: 7rem;
+  letter-spacing: 2px;
+}
+.subtext {
+  color: black;
+  font-size: 1.9rem;
+}
+
+.slide_btn {
+  padding: 1rem;
+  width: 35%;
+  margin-top: 2rem;
+  border: none;
+  background: dodgerblue;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 1;
+  font-size: 1.8rem;
+}
+
+@media screen and (max-width: 786px) {
+  .one {
+    .text-box {
+      position: absolute;
+      bottom: 5%;
+      width: 100%;
+      left: 0;
+      text-align: center;
+      background: rgba(255, 255, 255, 0.85);
+
+      padding: 1rem;
+    }
+  }
+
+  .two {
+    .text-box {
+      position: absolute;
+      left: 0%;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    .slide_btn {
+      background: #232323;
+    }
+  }
+
+  .secondary {
+    font-size: 7.5rem;
+    padding: 0;
+    color: black;
+    line-height: 1;
+    font-weight: normal;
+  }
+
+  .header {
+    line-height: 1;
+  }
+  .slide_btn {
+    padding: 1.5rem;
+    width: 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1;
+    font-size: 2rem;
+  }
+  .subtext {
+    color: black;
+    font-size: 2rem;
+    padding-top: 1rem;
+  }
+}

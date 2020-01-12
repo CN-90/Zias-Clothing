@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+ul {
+  list-style-type: none;
+}
+
+@media screen and (max-width: 1300px) {
+  html {
+    font-size: 8.5px;
+  }
+}
+
+@media screen and (max-width: 786px) {
+  html {
+    font-size: 7px;
+  }
+}

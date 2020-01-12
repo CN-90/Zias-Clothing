@@ -1,0 +1,93 @@
+@import '../../App.scss';
+nav {
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background: white;
+  z-index: 1;
+
+  .logo {
+    font-size: 5rem;
+    position: relative;
+  }
+}
+
+#nav__container {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__list-option {
+  padding: 2rem;
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+  cursor: pointer;
+  display: inline;
+  color: rgb(131, 131, 131);
+  &:hover {
+    color: black;
+  }
+}
+
+#nav-shop {
+  position: relative;
+}
+
+#nav-shop:hover .shop-dropdown {
+  display: block;
+}
+
+.shop-dropdown {
+  width: 650px;
+  height: 400px;
+  position: absolute;
+  top: 40px;
+  left: -250px;
+  display: none;
+  padding: 2rem;
+  cursor: default;
+  z-index: 1;
+  background: white;
+  box-shadow: 3px 3px 9px -3px rgb(85, 84, 84);
+}
+
+.dropdown-flex {
+  display: flex;
+}
+
+.shop-option-category {
+  font-size: 1.3rem;
+  color: black;
+}
+
+.shop-option-list {
+  list-style-type: none;
+  padding-right: 5rem;
+}
+
+.shop-option-list li {
+  color: gray;
+  font-size: 1.3rem;
+  padding-top: 2rem;
+  cursor: pointer;
+}
+
+.shop-option-list li:hover {
+  color: black;
+}
+
+.dropdown-new {
+  padding-top: 3rem;
+  position: absolute;
+  top: 50%;
+  width: 55%;
+}
+
+.new-items {
+  padding-top: 2rem;
+  width: 100%;
+  height: 150px;
+}
