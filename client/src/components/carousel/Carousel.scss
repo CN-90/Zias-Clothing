@@ -1,0 +1,16 @@
+.carousel {
+  padding-top: 5rem;
+  width: 100%;
+}
+
+.product-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.carousel-heading {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 3rem;
+}

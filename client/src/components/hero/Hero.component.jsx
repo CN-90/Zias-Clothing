@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { CSSTransition, SwitchTransition } from 'react-transition-group';
-import Slides from './Slides';
+import Slides from './slides/Slides';
 import '../../App.scss';
 import './Hero.scss';
 
@@ -12,7 +12,6 @@ const Hero = () => {
     let interval = setInterval(() => {
       setTransition(prevValue => !prevValue);
     }, 8000);
-
     return () => {
       clearInterval(interval);
     };

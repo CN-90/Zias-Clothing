@@ -3,23 +3,28 @@
   .text-box {
     position: absolute;
     bottom: 30%;
-    left: 3%;
-    text-align: center;
+    left: 5%;
+
+    .secondary {
+      font-weight: normal;
+    }
   }
 }
 
 .two {
-  background: url('https://images.pexels.com/photos/1362556/pexels-photo-1362556.jpeg?cs=srgb&dl=sunglasses-with-frames-1362556.jpg&fm=jpg');
+  background: url('https://images.pexels.com/photos/1362556/pexels-photo-1362556.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  background-size: cover;
   display: flex;
   justify-content: center;
   .text-box {
     position: absolute;
-    top: 25%;
+    top: 30%;
+    left: 15%;
     text-align: center;
   }
 
   .slide_btn {
-    background: #1e1e1e;
+    background: dodgerblue;
   }
 }
 
@@ -59,6 +64,13 @@
   font-size: 1.8rem;
 }
 
+// @media screen and (max-width: 1500px) {
+//   .two {
+//     .text-box {
+//     }
+//   }
+// }
+
 @media screen and (max-width: 786px) {
   .one {
     .text-box {
@@ -77,12 +89,8 @@
     .text-box {
       position: absolute;
       left: 0%;
-      padding: 1rem;
+      padding: 1.5rem;
       text-align: center;
-    }
-
-    .slide_btn {
-      background: #232323;
     }
   }
 

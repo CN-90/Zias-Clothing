@@ -7,7 +7,7 @@ const SlideOne = () => (
       <h2 className="secondary">2020</h2>
       <h1 className="header">SPRING SALE</h1>
       <p className="subtext">
-        HOT spring collection, competitive prices, free shipping nationwide!
+        HOT Spring Collection, Competitive Prices, Free Shipping Nationwide!
       </p>
       <button className="slide_btn">View Sale</button>
     </div>
@@ -18,7 +18,7 @@ const SlideTwo = () => (
   <div className="slide two">
     <div className="text-box">
       <h1 className="header">DESIGNER GLASSES</h1>
-      <p className="subtext">Latest Designer Brands at affordable prices.</p>
+      <p className="subtext">Latest Designer Brands at Affordable Prices.</p>
       <button className="slide_btn">View Collection</button>
     </div>
   </div>

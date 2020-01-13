@@ -8,6 +8,8 @@ const Navbar = () => {
         <div className="logo">ZIAS</div>
         <ul className="nav__list">
           <li className="nav__list-option">HOME</li>
+
+          <li className="nav__list-option">ABOUT</li>
           <li className="nav__list-option" id="nav-shop">
             SHOP
             <div className="shop-dropdown">
@@ -16,21 +18,17 @@ const Navbar = () => {
                   <p className="shop-option-category">WOMEN</p>
                   <li>Clothing</li>
                   <li>Handbags</li>
-                  <li>Watches</li>
+                  <li>Shoes</li>
                   <li>Hats</li>
                 </ul>
                 <ul className="shop-option-list">
                   <p className="shop-option-category">MEN</p>
                   <li>Clothing</li>
-                  <li>Watches</li>
-                  <li>Hats</li>
-                  <li>Handbags</li>
                 </ul>
                 <ul className="shop-option-list">
                   <p className="shop-option-category">ACCESSORIES</p>
                   <li>Belts</li>
-                  <li>Scarfs</li>
-                  <li>Hats</li>
+                  <li>Watches</li>
                   <li>Handbags</li>
                 </ul>
                 <ul className="shop-option-list">
@@ -42,9 +40,6 @@ const Navbar = () => {
                 <div className="new-items">items go here.</div>
               </div>
             </div>
-          </li>
-          <li style={{ marginRight: '75px' }} className="nav__list-option">
-            ABOUT
           </li>
 
           <li className="nav__list-option">LOGIN</li>
